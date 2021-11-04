@@ -7,8 +7,10 @@ public class Account{
 
     }
     public void deposit (double monto){
+
         balance = balance+monto;
     }
+
     public void withdraw (double monto){
         if((balance-monto)<=0){
             balance=balance;
